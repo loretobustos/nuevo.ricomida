@@ -1,0 +1,208 @@
+:root {
+    --black: #000;
+    --dark: #373A3C;
+    --grey: #777777;
+    --light: #dddddd;
+    --white: #fff;
+    --danger: #dc3545;
+}
+
+
+
+
+body * {
+    font-family: 'Cabin', sans-serif;
+    color: var(--dark);
+}
+
+
+
+
+nav {
+    padding: 0!important;
+}
+
+.navbar,
+footer {
+    background-color: var(--dark);
+    color: var(--white);
+    font-family: 'Lobster', cursive;
+    text-decoration: none!important;
+}
+
+.nav-link {
+    font-family: 'Cabin', regular;
+    color: var(--white);
+}
+
+footer h3 {
+    color: var(--white);
+    font-family: 'Lobster', cursive;
+}
+
+
+
+
+.icon {
+    font-size: 37px;
+    padding: 0;
+}
+
+
+
+
+.navbar-toggler {
+    border-color: var(--grey);
+}
+
+.fa-bars {
+    color: var(--grey);
+}
+
+b{
+    font-size: 20px;
+}
+
+
+header {
+    padding-top: 2.2rem!important;
+}
+
+.rowPizza {
+    border-bottom: 1.5px solid var(--dark);
+}
+
+.botones- {
+    border-color: var(--light);
+    outline-color: var(--white);
+}
+
+.rowImagenPizza {
+    border-bottom: 1.5px solid var(--dark);
+}
+
+
+
+.carousel-indicators li {
+    top: 60px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: var(--light);
+}
+
+.carousel-indicators .active {
+    background-color: var(--dark);
+}
+
+.recipeSection{
+    text-decoration: none;
+    list-style-type: none;
+    list-style-position: inside;
+    margin: 6px 0;
+}
+
+
+.rowRecipe {
+    border-bottom: 1.5px solid var(--dark);
+    padding-bottom: 60px;
+
+}
+
+
+.preparation p{
+    font-size: 20px;
+}
+
+
+#newsletterSection {
+    background-color: var(--danger);
+    padding: 6rem 0;
+}
+
+.newsletter * {
+    color: var(--white);
+}
+
+.newsletterSection .container h3 {
+    font-size: 30px;
+}
+
+span {
+    font-family: 'Lobster', cursive;
+}
+
+.btn-danger {
+    border-color: var(--light);
+    color: var(--white);
+    padding: 5px 70px;
+}
+
+
+
+@media (max-width: 575.98px) { 
+    .botones- {
+        margin-right: 1px !important;
+        margin-left: 1px !important;
+        padding: 15px 5px !important;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width: 991.98px) {
+   
+}
+
+@media (min-width: 577px) and (max-width: 1199.98px) {
+    .imgPizza {
+        border-top: 1.5px solid var(--dark);
+    }
+    h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+    header h5 {
+        text-align: center;
+        font-size: 16px;
+    }
+    .buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        
+    }
+    .btn-light {
+        width: 112px;
+        height: 40px;
+        font-size: 13px;
+        padding: auto;
+    }
+    
+    .recipe .row {
+        margin-top: 30px;
+    }
+    .recipe .row * {
+        font-size: 16px;
+    }
+    
+    #relatedRecipes h2 {
+        font-size: 25px;
+    }
+    .card-title {
+        font-size: 17px;
+    }
+    
+    #newsletterSection h4 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .ingredientes{
+        padding-left: 40px;
+    }
+    .ingredientes h3{
+        margin-top: -16px;
+    }
+
+}
